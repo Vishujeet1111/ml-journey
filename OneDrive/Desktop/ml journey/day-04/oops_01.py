@@ -15,7 +15,7 @@ class ElectricCar(Car):
 my_new_car = ElectricCar("tata","BEV","85kWh")
 print(my_new_car.full_name())
 
-# my_car = Car("toyota","fortuner")
-# print(my_car.brand)
-# print(my_car.car)
-# print(my_car.full_name())
+my_car = Car("toyota","fortuner")
+print(my_car.brand)
+print(my_car.car)
+print(my_car.full_name())
